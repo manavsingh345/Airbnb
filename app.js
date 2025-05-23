@@ -104,7 +104,7 @@ app.use((req, res, next) => {
 
 // ** ADD ROOT ROUTE TO HANDLE '/' **
 app.get('/', (req, res) => {
-    res.render('home');  // Make sure you have views/home.ejs
+    res.redirect("/listings"); // Make sure you have views/home.ejs
 });
 
 
