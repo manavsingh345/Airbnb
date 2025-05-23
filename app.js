@@ -72,9 +72,6 @@ const sessionOptions = {
 };
 
 
-app.get('/', (req, res) => {
-  res.render('home');  // or send some message, or redirect
-});
 
 app.use(session(sessionOptions));
 
